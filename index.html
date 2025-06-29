@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Versi Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Mella</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #ffe6f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff99cc;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    header .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 5px solid white;
+      object-fit: cover;
+      margin-bottom: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.2em;
+    }
+
+    header p {
+      font-style: italic;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #d63384;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "💗 ";
+      margin-right: 5px;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .skills-container ul {
+      width: 45%;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #d63384;
+      font-size: 2em;
+      transition: transform 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    .hello-kitty-img {
+      width: 100%;
+      max-width: 200px;
+      display: block;
+      margin: 20px auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #ffccdd;
+      color: #555;
+    }
+  </style>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/foto-profil.jpg" alt="Foto Profil" class="profile-pic" />
+    <h1>Nenden Rosmeylani 🎀</h1>
+    <p>221091750100 💖</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>👧 Tentang Saya</h2>
+      <p>Hai! Aku adalah seseorang yang suka hal-hal lucu, warna pink, dan dunia digital. 
+    Aku nggak selalu tahu semua tentang coding, tapi aku suka belajar hal baru, 
+    terutama yang berhubungan dengan desain dan teknologi sederhana.💕</p>
+      <img src="assets/helokiti.png" alt="Hello Kitty" class="hello-kitty-img" />
+    </section>
+
+    <section>
+      <h2>📋 Biodata Singkat</h2>
+      <ul>
+        <li>Nama: Nenden Rosmeylani</li>
+        <li>Nim: 221091750100</li>
+        <li>Domisili: Kota Serang</li>
+        <li>Email: Nendenrosmeylani@email.com</li>
+        <li>Telepon: 081291696261</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎯 Keahlian</h2>
+      <div class="skills-container">
+        <ul>
+          <h3>Hard Skills</h3>
+          <li>HTML, CSS</li>
+          <li>Figma, Canva, Photoshop</li>
+          <li>Microsoft Excel & Word</li>
+        </ul>
+        <ul>
+          <h3>Soft Skills</h3>
+          <li>Kreatif & Imajinatif</li>
+          <li>Komunikasi yang baik</li>
+          <li>Time Management</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+    <h2>📚 Perjalanan Belajarku</h2>
+    <ul>
+        <li>Belajar HTML & CSS dari video YouTube dan tutorial TikTok</li>
+        <li>Eksperimen bikin desain lucu di Canva & Figma</li>
+        <li>Pernah coba bikin mini website buat biodata sendiri 🎀</li>
+    </ul>
+    </section>
+
+
+    <section>
+      <h2>🎨 Hobi & Kegemaran</h2>
+      <ul>
+        <li>Menggambar & mewarnai digital</li>
+        <li>Nonton Film</li>
+        <li>Mendengarkan Lagu</li>
+      </ul>
+    </section>
+
+    <section class="social-icons">
+      <h2>📱 Hubungi Aku</h2>
+      <a href="https://wa.me/081291696261" target="_blank" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://instagram.com/ratumellaa_" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com/@Mella" target="_blank" title="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; Mella
+  </footer>
+
+  <script>
+    // Alert sambutan
+    window.onload = () => {
+      alert("SElamat Datang");
+    };
+  </script>
+</body>
+</html>
